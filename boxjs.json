@@ -6,19 +6,19 @@
   "script": "https://raw.githubusercontent.com/461993097/imt/main/i-maotai.js",
   "apps": [
     {
-      "id": "461993097.maotai",
+      "id": "461993097.i-maotai",
       "name": "茅台预约",
       "descs_html": [],
       "keys": [
-        "province",
-        "city",
+        "MT_PROVINCE",
+        "MT_CITY",
         "itemId",
-        "location",
+        "mapData",
         "shopId"
       ],
       "settings": [
         {
-          "id": "province",
+          "id": "MT_PROVINCE",
           "name": "省份名称",
           "val": null,
           "type": "text",
@@ -26,7 +26,7 @@
           "desc": ""
         },
         {
-          "id": "city",
+          "id": "MT_CITY",
           "name": "城市名称",
           "val": null,
           "type": "text",
@@ -42,7 +42,7 @@
           "desc": ""
         },
         {
-          "id": "location",
+          "id": "mapData",
           "name": "当前位置",
           "val": null,
           "type": "text",
