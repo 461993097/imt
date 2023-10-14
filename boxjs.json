@@ -3,7 +3,6 @@
   "name": "茅台",
   "author": "Victor",
   "repo": "https://github.com/461993097/imt",
-  "script": "https://raw.githubusercontent.com/461993097/imt/main/i-maotai.js",
   "apps": [
     {
       "id": "461993097.i-maotai",
@@ -61,6 +60,7 @@
       "author": "Victor",
       "repo": "https://github.com/461993097/imt",
       "icons": []
+      "script": "https://raw.githubusercontent.com/461993097/imt/main/i-maotai.js",
     }
   ]
 }
