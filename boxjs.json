@@ -1,1 +1,66 @@
-
+{
+  "id": "461993097.app.sub",
+  "name": "茅台",
+  "author": "Victor",
+  "repo": "https://github.com/461993097/imt",
+  "script": "https://raw.githubusercontent.com/461993097/imt/main/i-maotai.js",
+  "apps": [
+    {
+      "id": "461993097.maotai",
+      "name": "茅台预约",
+      "descs_html": [],
+      "keys": [
+        "province",
+        "city",
+        "itemId",
+        "location",
+        "shopId"
+      ],
+      "settings": [
+        {
+          "id": "province",
+          "name": "省份名称",
+          "val": null,
+          "type": "text",
+          "rows": 1,
+          "desc": ""
+        },
+        {
+          "id": "city",
+          "name": "城市名称",
+          "val": null,
+          "type": "text",
+          "rows": 1,
+          "desc": ""
+        },
+        {
+          "id": "itemId",
+          "name": "预约项",
+          "val": null,
+          "type": "text",
+          "rows": 1,
+          "desc": ""
+        },
+        {
+          "id": "location",
+          "name": "当前位置",
+          "val": null,
+          "type": "text",
+          "rows": 1,
+          "desc": "经度,纬度"
+        },
+        {
+          "id": "shopId",
+          "name": "需要预约的店铺ID",
+          "val": null,
+          "type": "text",
+          "rows": 1,
+          "desc": ""
+        }
+      ],
+      "author": "Victor",
+      "repo": "https://github.com/461993097/imt",
+      "icons": []
+    }
+  ]
+}
